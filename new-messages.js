@@ -1,1 +1,3 @@
-export const messages = ["Olá!", "Tudo bem?", "Espero que sim!"];
+const messages = ["Olá!", "Tudo bem?", "Espero que sim!"];
+
+module.exports = { messages };
