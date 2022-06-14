@@ -1,3 +1,3 @@
-const { messages } = require("./new-messages");
+const { messages } = require("./new-messages")
 
-messages.map((message) => console.log(message));
+messages.map((message, i) => console.log(`${i}: ${message}`))
