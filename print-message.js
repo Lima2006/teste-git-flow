@@ -3,7 +3,7 @@ const { messages } = require("./new-messages");
 const localHour = new Date().getHours();
 const generateGreeting = (hour) => {
   if (hour >= 18 || hour < 6) return "Boa Noite!";
-  if (hour >= 18 && hour < 6) return "Bom Dia!";
+  if (hour >= 6 && hour < 12) return "Bom Dia!";
   if (hour >= 12 && hour < 18) return "Boa Tarde!";
   return "...";
 };
