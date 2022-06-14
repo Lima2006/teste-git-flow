@@ -1,2 +1,3 @@
-const message = "Hello World!";
-console.log(message);
+const { messages } = require("./new-messages");
+
+messages.map((message) => console.log(message));
